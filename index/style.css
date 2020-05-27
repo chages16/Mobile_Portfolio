@@ -34,9 +34,22 @@ h4 {
   border-width: 1px;
   }
 
+h3 {
+  font-family: cursive;
+}
+
   .rowheight {
-    height: 250px;
+    height: 220px;
   }
+
+  footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+
+
+
 @media screen and (max-width: 768px) {
     body {
       background-color: #333;

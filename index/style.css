@@ -10,6 +10,33 @@ body {
     vertical-align: middle;
 }
 
+.img-thumbnail {
+  width: 150px;
+  height: 150px;
+}
+
+.img-thumbnail:hover {
+  border-style: groove;
+  border-width: 2px;
+  border-color: turquoise;
+  background-color: turquoise;
+  height: 170px;
+  width: 170px;       
+}
+
+h4 {
+  font-size: medium;
+  color: black;
+  background-color: rgb(230, 253, 244);
+  width: 170px;
+  border-style: ridge;
+  border-color: black;
+  border-width: 1px;
+  }
+
+  .rowheight {
+    height: 250px;
+  }
 @media screen and (max-width: 768px) {
     body {
       background-color: #333;
@@ -54,6 +81,11 @@ body {
       margin-top: 40px;
     }
   }
+
+
+
+    .alert-primary {
+      width: 180px;
   
   /* Width at 168px and below */
   @media screen and (max-width: 168px) {

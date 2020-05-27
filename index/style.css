@@ -44,11 +44,26 @@ h3 {
 
   footer {
     text-align: center;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.918);
     color: white;
   }
 
-
+  #page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    font-family: cursive;
+  }
 
 @media screen and (max-width: 768px) {
     body {

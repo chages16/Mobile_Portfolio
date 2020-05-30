@@ -65,75 +65,67 @@ h3 {
     font-family: cursive;
   }
 
-@media screen and (max-width: 768px) {
-    body {
-      background-color: #333;
-    }
-  
-    .wrapper {
-      /* Box-model */
-      width: 100%;
-      padding: 20px;
-    }
-  
-    #main-content,
-    #sidebar {
-      width: 100%;
-    }
-  
-    #sidebar {
-      margin-top: 40px;
-    }
-  }
-  
-  /* Additional Screen Sizes */
-  
-  /* Width at 320px and below */
-  @media screen and (max-width: 320px) {
-    body {
-      background-color: #333;
-    }
-  
-    .wrapper {
-      /* Box-model */
-      width: 100%;
-      padding: 20px;
-    }
-  
-    #main-content,
-    #sidebar {
-      width: 100%;
-    }
-  
-    #sidebar {
-      margin-top: 40px;
-    }
+  .mainimage {
+    width: 300px;
+    height: 400px";
   }
 
+@media screen and (max-width: 993px) {
+    
+  body {
+      background-color: rgba(51, 51, 51, 0.877);
+      margin left: 20px;
+      margin right: 20px;
+      border-left: 20px;
+      border-right: 20px;
+    }
 
+    .mobilerow {
+      display: initial;
+    }
 
-    .alert-primary {
-      width: 180px;
   
-  /* Width at 168px and below */
-  @media screen and (max-width: 168px) {
-    body {
-      background-color: #333;
-    }
-  
-    .wrapper {
-      /* Box-model */
-      width: 100%;
-      padding: 20px;
-    }
-  
-    #main-content,
-    #sidebar {
-      width: 100%;
-    }
-  
-    #sidebar {
-      margin-top: 40px;
-    }
+  .mainimage {
+    width: 150px;
+    height: 200px;
+    display: none;
   }
+
+  .card-text, li{
+    font-size: small;
+  }
+
+  .portfoliopics {
+    background-color: white;
+    padding-top: 3pt;
+    padding-bottom: 3pt;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.img-thumbnail {
+  width: 100px;
+  height: 100px;
+}
+
+.img-thumbnail:hover {
+  border-style: groove;
+  border-width: 1px;
+  border-color: turquoise;
+  background-color: turquoise;
+  height: 110px;
+  width: 110px;       
+}
+
+.rowheight {
+  height: 150px;
+  width: 250px;
+}
+
+.rightcolumn {
+  display: none;
+}
+
+}
   
+    
